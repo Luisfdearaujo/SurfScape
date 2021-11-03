@@ -138,7 +138,7 @@ class Game {
     if (!this.isGameOver) {
       requestAnimationFrame(this.gameLoop);
       this.score++;
-      score.innerText = Math.floor(this.score / 5);
+      score.innerText = Math.floor(this.score / 8);
     }
   };
 }
