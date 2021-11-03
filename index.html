@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SurfScape</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header>
+    </header>
+    <div class="game-intro" class = "container">
+        <h1>SurfScape</h1>
+        <img class= "image1" src="./images/bg4.png" alt="toucan" widht="450" height= "400"> </img>
+        <br>
+        <button class= "btn"> START GAME</button>
+        <div class = "arrows">
+          <p>Press the arrows to move the surfer</p>
+          <img src="./images/arrows-btn4.png" alt="arrows" width="50" height="=50"> </img>
+        </div>
+    </div>
+      <div class="score-time">
+          <h2 id="score">0</h2>
+      </div>
+    <div class="canvas">       
+        <canvas id="my-canvas" width="1000" height="650">
+        </canvas>
+    </div>
+    <div class="game-over" class= "container">
+      <div class ="align-gamo">
+        <img  class="img2" src="./images/gameover2.jpeg" alt="surf-logo-gameover" width="600" height="550"></img>
+      
+        <button class = "btn2">TRY AGAIN</button>
+        </div>
+    </div> 
+    <script src="./main.js"></script>
+    <script src="./game.js"></script>
+    <script src="./surfer.js"></script>
+    <script src="./obstacle.js"></script>
+
+  </body>
+</html>
