@@ -24,7 +24,9 @@ startBtn.addEventListener("click", () => {
   score.style.display = "flex";
   //show canvas screen
   canvas.style.display = "flex";
-
+  const music = new Audio("./Music/sea.wav");
+  music.play();
+  music.loop = true;
   //start the game
   game = new Game();
   game.gameLoop();
@@ -41,6 +43,9 @@ window.addEventListener("keydown", (event) => {
   //here i wanna make the surfer turn left and right!
   //console.log("Clicking things");
   //----//
+  const music = new Audio("./Music/bong_001.ogg");
+  music.play();
+  music.loop = false;
 
   if (event.code === "ArrowRight") {
     game.surfer.surferTurnRight();
@@ -53,10 +58,4 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-//  Surfer should not go up the canvas
 //  sharks overlap
-//  sharks speed
-//  Score
-//  how to increase shark speed during time
-
-//  Sounds?

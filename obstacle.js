@@ -18,5 +18,3 @@ class Obstacle {
     this.y -= 4 + this.speed;
   };
 }
-
-//new Shark( "./images/shark2")
