@@ -28,20 +28,20 @@ p {
   justify-content: center;
   align-items: center;
 }
-.score-time {
-}
-.game-intro {
-}
+
 .image1 {
   position: relative;
   left: 35px;
 }
 .score-time {
+  font-weight: bolder;
+  font-size: 20px;
   width: 30px;
   display: none;
   height: 0px;
   position: relative;
   left: 490px;
+  top: 10px;
   display: none;
 }
 .time {
